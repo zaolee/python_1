@@ -1,0 +1,33 @@
+# def make_juice(fruit):
+#     return f"{fruit}+🥤"
+
+# def add_ice(juice):
+#     return f"{juice}+🧊"
+
+# def add_sugar(iced_juice):
+#     return f"{iced_juice}+🍬"
+
+# juice = make_juice("🍎")
+# cold_juice =add_ice(juice)
+# perfect_juice = add_sugar(cold_juice)
+
+# print(perfect_juice)
+
+def make_juice_1(add_friut):
+    return f"{add_friut} + cup"
+
+def make_juice_2(add_ice):
+    return f"{add_ice} + ice" 
+
+def make_juice_3(add_sugar):
+    return f"{add_sugar} + sugar"  
+
+add_ice = make_juice_1("apple")
+add_sugar = make_juice_2(add_ice)
+perfect_juice = make_juice_3(add_sugar)
+
+print(perfect_juice)
+
+
+
+
